@@ -1,4 +1,4 @@
-package br.com.fatecararas.curruencies.model;
+package br.com.fatecararas.curruencies.model.composicao;
 
 public class ControleRemoto {
     public TV tv;

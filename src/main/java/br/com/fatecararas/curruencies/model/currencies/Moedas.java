@@ -1,10 +1,19 @@
 package br.com.fatecararas.curruencies.model.currencies;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Moedas {
     private String source;
+    @JsonProperty("USD")
     private Dolar dolar;
+    @JsonProperty("ARS")
     private PesoArgentino pesoArgentino;
+    @JsonProperty("EUR")
     private Euro euro;
+    @JsonProperty("JPY")
+    private Yen yen;
 
     public Moedas(String source, Dolar dolar, PesoArgentino pesoArgentino, Euro euro) {
         this.source = source;
@@ -52,6 +61,15 @@ public class Moedas {
         return this;
     }
 
+    public Yen getYen() {
+        return yen;
+    }
+
+    public Moedas setYen(Yen yen) {
+        this.yen = yen;
+        return this;
+    }
+
     @Override
     public String toString() {
         return "Moedas{" +
@@ -59,6 +77,7 @@ public class Moedas {
                 ", dolar=" + dolar +
                 ", pesoArgentino=" + pesoArgentino +
                 ", euro=" + euro +
+                ", yen=" + yen +
                 '}';
     }
 }

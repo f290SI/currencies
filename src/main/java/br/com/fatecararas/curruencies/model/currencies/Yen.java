@@ -1,6 +1,6 @@
 package br.com.fatecararas.curruencies.model.currencies;
 
-public class Euro extends Moeda{
-    public Euro() {
+public class Yen extends Moeda {
+    public Yen() {
     }
 }

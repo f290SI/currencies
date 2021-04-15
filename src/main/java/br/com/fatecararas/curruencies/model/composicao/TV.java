@@ -1,4 +1,6 @@
-package br.com.fatecararas.curruencies.model;
+package br.com.fatecararas.curruencies.model.composicao;
+
+import br.com.fatecararas.curruencies.model.enums.Voltagem;
 
 public class TV extends EletroEletronico{
 

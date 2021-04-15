@@ -1,17 +1,29 @@
 package br.com.fatecararas.curruencies.model.currencies;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.time.LocalDate;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public abstract class Moeda {
 
+    @JsonProperty("name")
     private String nome;
+    @JsonProperty("buy")
     private Double compra;
+    @JsonProperty("sell")
     private Double venda;
+    @JsonProperty("variation")
     private Double variacao;
+    private LocalDate localDate;
 
     public Moeda(String nome, Double compra, Double venda, Double variacao) {
         this.nome = nome;
         this.compra = compra;
         this.venda = venda;
         this.variacao = variacao;
+        this.localDate = LocalDate.now();
     }
 
     public Moeda() {
@@ -50,6 +62,15 @@ public abstract class Moeda {
 
     public Moeda setVariacao(Double variacao) {
         this.variacao = variacao;
+        return this;
+    }
+
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public Moeda setLocalDate(LocalDate localDate) {
+        this.localDate = localDate;
         return this;
     }
 
