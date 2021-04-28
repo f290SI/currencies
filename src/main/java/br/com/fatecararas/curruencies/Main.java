@@ -1,43 +1,13 @@
 package br.com.fatecararas.curruencies;
 
-import br.com.fatecararas.curruencies.model.currencies.Dolar;
-import br.com.fatecararas.curruencies.model.currencies.Euro;
-import br.com.fatecararas.curruencies.model.currencies.Moedas;
-import br.com.fatecararas.curruencies.model.currencies.PesoArgentino;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import br.com.fatecararas.curruencies.service.CotacaoService;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.time.LocalDate;
+
 
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
-
-        // Criar objeto HttpClient que irá executar a requisição web
-        HttpClient httpClient = HttpClient.newHttpClient();
-
-        // Criar requisição web à API HGBrasil
-        HttpRequest httpRequest = HttpRequest.newBuilder()
-                .uri(URI.create("https://api.hgbrasil.com/finance/quotations"))
-                .build();
-
-        HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
-
-        var mapper = new ObjectMapper();
-
-        ObjectNode jsonNodes = mapper.readValue(response.body(), ObjectNode.class);
-
-        String nodeCurrencies = jsonNodes.get("results").get("currencies").toString();
-
-        Moedas moedas = mapper.readValue(nodeCurrencies, Moedas.class);
-
-        System.out.println(moedas);
-
+    public static void main(String[] args) {
+        CotacaoService service = new CotacaoService();
+        service.executarCotacao();
         //<editor-fold desc="Codigo Anterior, sem uso de serialização com Jackson" defaultstate="collapsed">
         /*
         Dolar dolar = new Dolar("Dollar", 5.643D, 5.6164D, 0.78D);
