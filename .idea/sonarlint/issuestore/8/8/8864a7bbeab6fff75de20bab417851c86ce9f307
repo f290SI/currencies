@@ -1,8 +1,0 @@
-
-p
-java:S1104"NMake tv a static final constant or non-public and provide accessors if needed.(ÎœÄ‡úÿÿÿÿ8ÊƒüöŠ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(œûãĞÿÿÿÿÿ8¾Â§÷Š/
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ºÂûÿÿÿÿ8ëµ­÷Š/
-U	java:S106!"9Replace this use of System.out or System.err by a logger.(ôõÒ8Õ¤«÷Š/
-T	java:S106"9Replace this use of System.out or System.err by a logger.(¼å€"8Õß­÷Š/
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(óµĞ¬ıÿÿÿÿ8ğÖ¹÷Š/

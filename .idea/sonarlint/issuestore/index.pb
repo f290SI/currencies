@@ -1,14 +1,4 @@
 
-p
-@src/main/java/br/com/fatecararas/curruencies/model/Voltagem.java,c/7/c70cd63a2fe07cdcaf6e9401ea5e8afb29dba390
-j
-:src/main/java/br/com/fatecararas/curruencies/model/TV.java,a/0/a08a6cf837d906eb1a8ea4b26d579defac68884b
-k
-;src/main/java/br/com/fatecararas/curruencies/model/PS4.java,a/4/a4ea52b6f5544a429e492d2f4043dc69818694a4
-x
-Hsrc/main/java/br/com/fatecararas/curruencies/model/EletroEletronico.java,d/a/daf423b450f24af75164897c857bae074494741e
-v
-Fsrc/main/java/br/com/fatecararas/curruencies/model/ControleRemoto.java,8/8/8864a7bbeab6fff75de20bab417851c86ce9f307
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 y
@@ -23,3 +13,21 @@ Hsrc/main/java/br/com/fatecararas/curruencies/model/currencies/Moeda.java,7/6/7
 Psrc/main/java/br/com/fatecararas/curruencies/model/currencies/PesoArgentino.java,0/9/0969ec01d245fa112d2b2c3e5db153f80b32d0e1
 f
 6src/main/java/br/com/fatecararas/curruencies/Main.java,a/8/a85890a4fb15b310d1838340146afafbb916bf12
+É
+Ssrc/main/java/br/com/fatecararas/curruencies/model/composicao/EletroEletronico.java,2/b/2bfd6b447ea04f6e6dda4295e787f02e7f98dbd5
+Å
+Qsrc/main/java/br/com/fatecararas/curruencies/model/composicao/ControleRemoto.java,5/8/58c6a5ee4f46fbc74968844002e4356241088a26
+v
+Fsrc/main/java/br/com/fatecararas/curruencies/model/composicao/PS4.java,3/9/395e9c29a16ba49e701873430f2cc000815aa57b
+u
+Esrc/main/java/br/com/fatecararas/curruencies/model/composicao/TV.java,8/a/8a8789e18fbab026b10901c6347274deb992ae9d
+v
+Fsrc/main/java/br/com/fatecararas/curruencies/model/enums/Voltagem.java,a/f/af493952701c7a4d3bfeba338bb435c03a32e40c
+v
+Fsrc/main/java/br/com/fatecararas/curruencies/model/currencies/USD.java,b/2/b2aa8136b20b07fe820d7dff60df8f9e46b81eaa
+}
+Msrc/main/java/br/com/fatecararas/curruencies/model/currencies/Currencies.java,2/b/2bb2dd928f655675ac70f7a3cbfa7d3d78178219
+v
+Fsrc/main/java/br/com/fatecararas/curruencies/model/currencies/EUR.java,4/3/43cafed9807f69026abb02fb952e2ca2c6f9d692
+v
+Fsrc/main/java/br/com/fatecararas/curruencies/model/currencies/Yen.java,8/6/863d3ad364ffbf014ceaceec1b715fc9e62ebea1
