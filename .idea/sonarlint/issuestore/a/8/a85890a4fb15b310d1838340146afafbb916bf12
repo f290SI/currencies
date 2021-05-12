@@ -1,7 +1,6 @@
 
-q
-java:S1128"ORemove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.(ßÔïÇûÿÿÿÿ8¿Œ—/
-R
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ØÉ½—/
-X	java:S125+"<This block of commented-out lines of code should be removed.(èğ–£8á‰Ã—/
-T	java:S106'"9Replace this use of System.out or System.err by a logger.(”†a8ëÎš™/
+
+java:S1130	"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(àÒşüøÿÿÿÿ8Ã–³ú“/
+X	java:S125"<This block of commented-out lines of code should be removed.(èğ–£8å×êÔ‘/
+™
+java:S1130	"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(àÒşüøÿÿÿÿ8Ã–³ú“/

@@ -31,3 +31,11 @@ v
 Fsrc/main/java/br/com/fatecararas/curruencies/model/currencies/EUR.java,4/3/43cafed9807f69026abb02fb952e2ca2c6f9d692
 v
 Fsrc/main/java/br/com/fatecararas/curruencies/model/currencies/Yen.java,8/6/863d3ad364ffbf014ceaceec1b715fc9e62ebea1
+
+Osrc/main/java/br/com/fatecararas/curruencies/services/PrevisaoTempoService.java,f/4/f43f0a7520aabb5413ebd81920cc160c9d435eee
+€
+Psrc/main/java/br/com/fatecararas/curruencies/controllers/ContacaoController.java,a/5/a56f2bed5e43c195829d52d1691ce5dd07482dce
+y
+Isrc/main/java/br/com/fatecararas/curruencies/services/CotacaoService.java,a/f/aff6afdb6591395cd351331204d99a18056069a2
+‚
+Rsrc/main/java/br/com/fatecararas/curruencies/controllers/RequisicaoController.java,d/8/d85fadaa9fd29e1cc84acef078af87a5c66e3989
